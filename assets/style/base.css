@@ -1,0 +1,110 @@
+body {
+
+    overflow-y: hidden;
+}
+
+#top {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(52, 64, 119);
+}
+
+#down {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(22, 29, 66);
+    height: 100vh;
+    padding-top: 50px;
+}
+
+#title {
+
+    color: #ffffff;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 90px;
+
+}
+
+#logo {
+
+    width: 300px;
+    height: 60px;
+}
+
+#description {
+
+    color: aliceblue;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+
+#mentalist-label {
+
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+}
+
+#value-mentalist {
+
+    width: 320px;
+    height: 30px;
+    margin-top: 10px;
+    font-family: 'Merriweather', serif;
+    border: 2px solid rgb(52, 64, 119);
+    border-radius: 4px;
+}
+
+#submit-number {
+
+    color: #ffffff;
+    background-color: rgb(42, 159, 255);
+    box-shadow: 5px blue;
+    text-transform: uppercase;
+    width: 150px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 13px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+#submit-number:hover{
+
+    color: #006dc7;
+    background-color: rgb(118, 182, 255);
+    transform:scale(1.1) ;
+}
+
+#submit-number:active{
+    color: #c3d8f3;
+    background-color: rgb(0, 130, 236);
+}
+
+.result{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 30px;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+#descripition-result{
+    margin-top: 10px;
+}
+
+.correct{
+    color: rgb(118, 182, 255);
+}
+
+.wrong{
+    color: red;
+}

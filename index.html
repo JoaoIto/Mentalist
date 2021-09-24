@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/style/reset.css">
+    <link rel="stylesheet" href="./assets/style/base.css">
+    <title>Mentalista</title>
+</head>
+
+<body>
+
+    <section id="top">
+        <div class="back-title">
+            <h1 id="title">Mentalista</h1>
+        </div>
+        <img id="logo" src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-mentalista.svg"
+            class="page-logo" alt="Logo da Imersão Dev">
+        <br>
+        <span id="description">Tente aqui tentar adivinhar o número que está sendo pensado!</span>
+        <br>
+        <br>
+    </section>
+    <section id="down">
+        <label for="value-mentalist" id="mentalist-label">Adivinhe um número!</label>
+        <input type="number" id="value-mentalist" placeholder="Number:">
+        <br>
+        <input type="submit" onclick="mentalist()" id="submit-number" value="Enviar">
+        <div class="result">
+        <h2 id="result-number"></h2>
+        <span id="descripition-result"></span>
+    </div>
+    </section>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
