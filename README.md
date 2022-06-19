@@ -1,16 +1,7 @@
 # Mentalist
-#imersãodev
 
-Number guessing site!
+**Este projeto é um que usamos para que seja gerado um número randômico e usuário a ser usado, chuta um número aleatório (gerado de 0 a 10) e assim coloca-o no campo, e depois do resultado ser dado, ele já diz certo ou errado e logo depois qual o número randômico gerado pelo código!**
 
-## Technologys 
+<img src="./assets/img/MentalistPrintscream.jpeg">
 
-- CSS, Bootstrap <img align="center" alt="Joao-CSS" height="20" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"> <img align="center" alt="Joao-Bootstrap" height="20" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg">
-
-- JavaScript <img align="center" alt="Joao-Js" height="20" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-- HTML5 <img align="center" alt="Joao-HTML" height="20" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-
-# 
-<img src="./assets/MentalistPrintscream.jpeg">
-
-### - Sorry for my poor readme, I will make a better later... ;)
+#
